@@ -10,6 +10,7 @@ Before you begin, ensure you have the following installed on your system:
 - Yarn
 - Expo CLI
 - MobX
+- ignite boilerplate
 - React Navigation
 - Git
 - Getting Started
@@ -52,5 +53,12 @@ expo start or npx expo start
 ## Open the App:
 Scan the QR code using the `Expo Go` app on your mobile device.
 Alternatively, you can run the app in an Android or iOS emulator.
+
+# User stories
+* User can see the splash screen for few seconds with the image of Lifology
+* Then User can see the list of users with profile picture, full name, email address & Company Name
+* User can scroll to see 'n' number of users
+* User can click any of the listed users to see the post of that particular user
+* User can see the list of post with views, likes & dislikes
 
 

@@ -101,6 +101,11 @@ export const iconRegistry = {
   settings: require("../../assets/icons/settings.png"),
   view: require("../../assets/icons/view.png"),
   x: require("../../assets/icons/x.png"),
+  company: require("../../assets/icons/enterprise.png"),
+  views: require("../../assets/icons/eye.png"),
+  likes: require("../../assets/icons/like.png"),
+  dislikes: require("../../assets/icons/dislike.png"),
+  logo: require("../../assets/images/lifology_logo.png")
 }
 
 const $imageStyleBase: ImageStyle = {

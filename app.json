@@ -10,9 +10,9 @@
     "userInterfaceStyle": "automatic",
     "icon": "./assets/images/app-icon-all.png",
     "splash": {
-      "image": "./assets/images/splash-logo-all.png",
+    "image": "./assets/images/lifology_logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#191015"
+      "backgroundColor": "#4A628A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -29,9 +29,9 @@
         "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
       },
       "splash": {
-        "image": "./assets/images/splash-logo-android-universal.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
+       "image": "./assets/images/lifology_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A628A"
       }
     },
     "ios": {
@@ -39,18 +39,17 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.lifology",
       "splash": {
-        "image": "./assets/images/splash-logo-ios-mobile.png",
-        "tabletImage": "./assets/images/splash-logo-ios-tablet.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
+       "image": "./assets/images/lifology_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A628A"
       }
     },
     "web": {
       "favicon": "./assets/images/app-icon-web-favicon.png",
       "splash": {
-        "image": "./assets/images/splash-logo-web.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
+       "image": "./assets/images/lifology_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A628A"
       },
       "bundler": "metro"
     },

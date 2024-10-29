@@ -24,26 +24,32 @@ https://github.com/<your-username>/lifology-pro.git
 ```
 cd lifology-pro
 ```
-## Install Dependencies: Use Yarn or npm to install the required packages:
+## Install Dependencies: Use Yarn to install the required packages:
 ```
 yarn install
+```
+## prebuild
+```
+npx expo prebuild
 ```
 ## Project Structure
 Here’s an overview of the key directories and files in the project:
 
     ignite-boilerplate-expo/
     │
-    ├── app/                   # Application source code
-    │   ├── components/        # Reusable components
-    │   ├── screens/           # Application screens
-    │   ├── navigation/        # Navigation setup
-    │   ├── assets/            # Static assets (images, fonts)
-    │   ├── hooks/             # Custom hooks
-    │   ├── services/          # API services
-    │   └── utils/             # Utility functions
-    │
-    ├── package.json           # Project metadata and dependencies
-    └── app.json               # Expo configuration
+    ├── src/                    # Application source code
+    │   ├── app/                # Application screens
+    │   ├── components/         # Reusable components
+    │   ├── config/        
+    │   ├── devtools/            
+    │   ├── i18n/             
+    │   ├── models/          
+    │   └── services/           # API services             
+    │   └── theme/
+    |   └── utils/              # Utility functions
+    |
+    ├── package.json            # Project metadata and dependencies
+    └── app.json                # Expo configuration
 Running the App
 
 ## Start the Development Server:
